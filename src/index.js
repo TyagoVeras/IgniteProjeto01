@@ -6,7 +6,6 @@ const app = express();
 //fazendo com a aplicação reconheça o retorno em json
 app.use(express.json());
 
-
 const custumers = [];
 
 function verifyExistCustomer(req, res, next){
